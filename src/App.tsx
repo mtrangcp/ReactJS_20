@@ -1,10 +1,10 @@
 import "./App.css";
-import Bai09 from "./components/Bai09";
+import Bai10 from "./components/Bai10";
 
 function App() {
   return (
     <>
-      <Bai09 />
+      <Bai10 />
     </>
   );
 }

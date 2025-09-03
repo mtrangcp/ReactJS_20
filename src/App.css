@@ -266,3 +266,111 @@
   border-radius: 7px;
   color: #a8a8a8;
 }
+
+/* bai10 */
+.containerB10 {
+  background-color: #f8f7f7;
+  margin: 10px;
+  padding: 20px 10px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.containerB10 h2 {
+  color: rgb(12, 92, 183);
+}
+
+.p-1 {
+  font-size: 14px;
+  color: #828181;
+}
+
+.percent {
+  width: 100%;
+}
+
+.listYet,
+.listDone {
+  width: 100%;
+  background-color: rgb(234, 236, 253);
+  border-radius: 8px;
+  padding: 20px 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.listYet span {
+  background-color: rgb(63, 63, 255);
+}
+.listDone span {
+  background-color: rgb(16, 202, 50);
+}
+
+h4 span {
+  color: #fff;
+  font-size: 10px;
+  padding: 3px 6px;
+  border-radius: 50%;
+}
+
+.listData {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.listData .item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 8px;
+
+  align-items: center;
+}
+
+.item-left {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.item-left p {
+  font-size: 10px;
+  background-color: #d4efff;
+  width: fit-content;
+  padding: 4px 10px;
+  border-radius: 7px;
+}
+
+.item button {
+  padding: 6px 10px;
+  height: fit-content;
+
+  color: #fff;
+  background-color: rgb(2, 143, 2);
+  border: none;
+  border-radius: 7px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.listDone .item button {
+  background-color: orange;
+}
+
+.listData .note {
+  text-align: center;
+  font-style: italic;
+  color: #939393;
+}
